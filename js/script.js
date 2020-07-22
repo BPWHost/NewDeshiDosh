@@ -31,16 +31,16 @@ $(function () {
 
     // Product Slider Start 
 
-//    $('.productSlider1').slick({
-//        slidesToShow: 3,
-//        slidesToScroll: 1,
-//        autoplay: true,
-//        autoplaySpeed: 2000,
-//        dots: false,
-//        arrows: true,
-//        prevArrow: '<i class="fas fa-chevron-left prv_arr"></i>',
-//        nextArrow: '<i class="fas fa-chevron-right nxt_arr"></i>',
-//    });
+    $('.productSlider1').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        arrows: true,
+        prevArrow: '<i class="fas fa-chevron-left prv_arr"></i>',
+        nextArrow: '<i class="fas fa-chevron-right nxt_arr"></i>',
+    });
 
     // Product Slider End
     
