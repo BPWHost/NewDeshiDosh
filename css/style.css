@@ -4,8 +4,7 @@
     outline: 0;
 }
 
-ul,
-ol {
+ul {
     list-style: none;
 }
 
@@ -246,6 +245,7 @@ span {
     line-height: 25px;
     padding: 10px 15px;
 }
+
 .products p span {
     display: block;
     color: #313aa7;
@@ -266,12 +266,12 @@ span {
     -ms-transition: all linear .2s;
 }
 
-.products .buyButton:hover{
+.products .buyButton:hover {
     Color: #ffffff;
     background: #bc0000;
 }
 
-.productSlider1{
+.productSlider1 {
     padding-bottom: 50px;
 }
 
@@ -282,7 +282,7 @@ span {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-/*    background-attachment: fixed;*/
+    /*    background-attachment: fixed;*/
     position: relative;
     z-index: 1;
     border: 3px solid #ffffff;
@@ -300,7 +300,7 @@ span {
 }
 
 #specialProduct {
-     padding: 60px 0px 10px;
+    padding: 60px 0px 10px;
     background: url(../images/specialbg.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -327,7 +327,53 @@ span {
 /* Buy Part Start */
 
 #buyPart {
-     padding: 60px 0px 10px;
+    padding: 60px 0px 10px;
+    background: #ededed;
+}
+
+.buyPartHead h2 {
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.orderText h3 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.orderText h4 {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.orderText h5 {
+    color: #9d4949;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+
+.orderText ol li {
+        color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.orderText ol li i {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #219f21;
 }
 
 /* Buy Part End */
