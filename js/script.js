@@ -52,6 +52,6 @@ $('.venobox').venobox({
         border: '5px',
     });
     
-    $( "._58an" ).css( "placeholder", "3px solid red" );
+    $("._58an").attr("placeholder", "variable");
 
 });
