@@ -43,16 +43,16 @@ $(function () {
     });
 
     // Product Slider End
-    
 
-$('.venobox').venobox({
+
+    $('.venobox').venobox({
         framewidth: 'auto',
         frameheight: 'auto',
         spinner: 'cube-grid',
         border: '5px',
     });
-    
-        // Smooth Scroll Start 
+
+    // Smooth Scroll Start 
 
     // Select all links with hashes
     $('a[href*="#"]')
@@ -91,5 +91,28 @@ $('.venobox').venobox({
         });
 
     // Smooth Scroll End
+
+    //     Back To Top Start
+
+    $('.back2top').on('click', function () {
+        $('html,body').animate({
+            scrollTop: 0,
+        }, 1000);
+    });
+
+    $(window).on('scroll', function () {
+        var backScroll = $(this).scrollTop();
+        if (backScroll > 200) {
+            $('.back2top').fadeIn();
+        } else {
+            $('.back2top').fadeOut();
+        }
+    });
+
+    $(window).on('load', function () {
+        $('.preLoader').delay(1000).fadeOut();
+    })
+
+    //     Back To Top End
 
 });

@@ -389,3 +389,28 @@ span {
 }
 
 /* Buy Part End */
+
+/***********************   Back To Top Start   ************************/
+
+.back2top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+.back2top i {
+    color: #7b7b7b;
+    font-size: 40px;
+    transition: all linear .2s;
+    
+}
+.back2top i:hover {
+    color: #fd9237;
+    font-size: 40px;
+    
+}
+
+/***********************   Back To Top End   ************************/
