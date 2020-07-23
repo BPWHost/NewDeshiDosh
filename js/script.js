@@ -52,6 +52,6 @@ $('.venobox').venobox({
         border: '5px',
     });
     
-    $("._58an").attr("placeholder", "variable");
+    $("._58an").attr("placeholder", "Full Order");
 
 });
