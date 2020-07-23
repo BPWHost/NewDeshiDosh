@@ -145,6 +145,7 @@ span {
     height: 100%;
     z-index: -4;
     background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ffffff;
 }
 
 .productTitle h2 {
@@ -242,7 +243,13 @@ span {
     color: #333333;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
+    line-height: 25px;
     padding: 10px 15px;
+}
+.products p span {
+    display: block;
+    color: #313aa7;
+    font-weight: 700;
 }
 
 .products .buyButton {
@@ -278,6 +285,7 @@ span {
 /*    background-attachment: fixed;*/
     position: relative;
     z-index: 1;
+    border: 3px solid #ffffff;
 }
 
 #beautyProduct::after {
@@ -289,6 +297,29 @@ span {
     height: 100%;
     z-index: -4;
     background: rgba(0, 0, 0, 0.8);
+}
+
+#specialProduct {
+     padding: 60px 0px 10px;
+    background: url(../images/specialbg.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+#specialProduct::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid #ffffff;
 }
 
 /*Products Part End */
