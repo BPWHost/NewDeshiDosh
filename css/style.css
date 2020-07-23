@@ -336,7 +336,7 @@ span {
     font-size: 45px;
     font-family: 'Lobster', cursive;
     font-weight: 400;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-top: 30px;
 }
 
@@ -348,7 +348,7 @@ span {
 	color: #333333;
 	font-family: 'Lato', sans-serif;
 	font-size: 35px;
-/*	padding-bottom: 15px;*/
+	padding-bottom: 15px;
 }
 
 .orderText h4 {
