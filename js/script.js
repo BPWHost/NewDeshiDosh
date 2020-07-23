@@ -51,5 +51,7 @@ $('.venobox').venobox({
         spinner: 'cube-grid',
         border: '5px',
     });
+    
+    $( "._58an" ).css( "placeholder", "3px solid red" );
 
 });
