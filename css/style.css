@@ -436,8 +436,8 @@ span {
 }
 
 .contact p i {
-	padding-right: 25px;
-	color: #fd9237;
+    padding-right: 25px;
+    color: #fd9237;
 }
 
 
@@ -475,6 +475,20 @@ span {
 
 
 /* Contact Part End */
+
+
+/* Copy Right Part Start */
+
+#copyRight {
+    background: #000000;
+    color: #ffffff;
+    line-height: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+/* Copy Right Part End */
+
 
 /***********************   Back To Top Start   ************************/
 
