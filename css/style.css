@@ -514,4 +514,26 @@ span {
 
 }
 
+/* Pre Loader Start */
+
+.pre_loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 99999;
+}
+
+.pre_loader img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Pre Loader End */
+
 /***********************   Back To Top End   ************************/
