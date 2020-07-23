@@ -413,7 +413,7 @@ span {
     -moz-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, .5);
     box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, .5);
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 60px;
 }
 
 .contact {
@@ -445,7 +445,7 @@ span {
 
 .contact h5 {
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     padding-bottom: 15px;
@@ -460,7 +460,7 @@ span {
 .social a i {
     color: #b2b2b2;
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 45px;
     margin-top: 10px;
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
