@@ -114,11 +114,11 @@ $(function () {
     })
 
     //     Back To Top End
-    
-    
-//     Pre Loader
-    
-    $(window).on('load', function(){
+
+
+    //     Pre Loader
+
+    $(window).on('load', function () {
         $('.pre_loader').delay(1000).fadeOut(500);
     });
 

@@ -65,6 +65,10 @@ span {
     transform: scale(1.1);
 }
 
+.mainMenu .navbar-nav .nav-item .nav-link.active {
+    color: #fd9237;
+}
+
 .menuFix {
     position: sticky;
     top: 0;
