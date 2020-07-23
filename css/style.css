@@ -327,7 +327,7 @@ span {
 /* Buy Part Start */
 
 #buyPart {
-    padding: 60px 0px 10px;
+    padding: 60px 0px;
     background: #ededed;
 }
 
@@ -340,15 +340,15 @@ span {
     padding-top: 30px;
 }
 
-.orderText{
+.orderText {
     padding-top: 30px;
 }
 
 .orderText h3 {
-	color: #333333;
-	font-family: 'Lato', sans-serif;
-	font-size: 35px;
-	padding-bottom: 15px;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
 }
 
 .orderText h4 {
@@ -385,10 +385,36 @@ span {
     -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
     -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.85);
-/*    margin-top: 20px;*/
+    /*    margin-top: 20px;*/
 }
 
 /* Buy Part End */
+
+
+/* Contact Part Start */
+
+#contactPart {
+    padding: 60px 0;
+    background: #393939;
+}
+
+.contactHead h2 {
+    color: #d1d1d1;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.fbContact {
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 1);
+}
+
+
+/* Contact Part End */
 
 /***********************   Back To Top Start   ************************/
 
@@ -405,12 +431,13 @@ span {
     color: #7b7b7b;
     font-size: 40px;
     transition: all linear .2s;
-    
+
 }
+
 .back2top i:hover {
     color: #fd9237;
     font-size: 40px;
-    
+
 }
 
 /***********************   Back To Top End   ************************/
