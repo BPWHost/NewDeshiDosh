@@ -75,66 +75,69 @@
 
 
     /*    Banner Part End */
-    
-/*     Product Part Start */
-    
+
+    /*     Product Part Start */
+
     .productTitle h2 {
         font-size: 30px;
-        padding-bottom: 20px;;
+        padding-bottom: 20px;
+        ;
     }
-    
+
     #ladiesProduct,
     #beautyProduct,
-    #specialProduct{
+    #specialProduct {
         padding: 30px 0 10px;
     }
-    
-/*     Product Part End */
-    
-/*    Buy Part Start */
-    
+
+    /*     Product Part End */
+
+    /*    Buy Part Start */
+
     #buyPart {
         padding: 30px 0;
     }
-    
-    .buyPartHead h2,
-    .contactHead h2{
-	font-size: 35px;
-	padding-bottom: 0px;
-	padding-top: 0px;
-}
-    
-/*    Buy Part End */
-    
-    #contactPart {
-	padding: 30px 0;
-}
-    
-    .orderText h3 {
-	font-size: 30px;
-}
-    
-    .orderText h4 {
-	font-size: 20px;
-}
-    
-    .orderText h5 {
-	font-size: 20px;
-	padding-bottom: 20px;
-}
-    
-    .orderText ol li {
 
-	font-size: 15px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-    
-    .orderText ol  {
+    .buyPartHead h2,
+    .contactHead h2 {
+        font-size: 35px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    /*    Buy Part End */
+
+    #contactPart {
+        padding: 30px 0;
+    }
+
+    .orderText h3 {
+        font-size: 30px;
+    }
+
+    .orderText h4 {
+        font-size: 20px;
+    }
+
+    .orderText h5 {
+        font-size: 20px;
         padding-bottom: 20px;
     }
 
+    .orderText ol li {
 
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .orderText ol {
+        padding-bottom: 20px;
+    }
+
+    .fbMsg {
+        margin-left: 0px;
+    }
 }
 
 /******************************************* xsm Device End **************************************************/
