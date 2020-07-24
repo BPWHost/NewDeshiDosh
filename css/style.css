@@ -437,6 +437,7 @@ span {
 }
 
 .contact p span {
+    display: block;
     padding-left: 40px;
 }
 

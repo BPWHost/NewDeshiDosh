@@ -16,14 +16,275 @@
 
 /******************************************* md Device Start **************************************************/
 
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mainMenu {
+        background: rgba(255, 255, 255, 0.8);
+        margin-top: 0;
+    }
+
+    .mainMenu button:focus {
+        outline: 0;
+
+    }
+
+    .mainMenu button {
+        background: #fd9237 !important;
+        color: #ffffff;
+        margin-right: 15px;
+    }
+
+    .mainMenu .navbar-nav {
+        background: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .mainMenu .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+
+    }
+
+    /*    Menu Part End */
+    
+    /*    Banner Part Start */
+
+    #bannerPart .bannerImg {
+        padding: 0;
+    }
+
+    #bannerPart .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    /*     Product Part Start */
+
+    .productTitle h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        ;
+    }
+
+    #ladiesProduct,
+    #beautyProduct,
+    #specialProduct {
+        padding: 30px 0 10px;
+    }
+
+    /*     Product Part End */
+
+    /*    Buy Part Start */
+
+    #buyPart {
+        padding: 30px 0;
+    }
+
+    /*    Banner Part End */
+    
+    /*    Buy Part End */
+
+    #contactPart {
+        padding: 30px 0;
+    }
+
+    .orderText h3 {
+        font-size: 30px;
+    }
+
+    .orderText h4 {
+        font-size: 20px;
+    }
+
+    .orderText h5 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .orderText ol li {
+
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .orderText ol {
+        padding-bottom: 20px;
+    }
+
+    .fbMsg,
+    .fbContact {
+        margin-left: 0px;
+    }
+
+    .contact {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .contactInfo p {
+        text-align: left;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+
+    .contact h5 {
+        font-size: 20px;
+    }
+
+    .social a i {
+        padding: 25px;
+
+    }
+
+
+}
+    
+}
 
 /******************************************* md Device End **************************************************/
 
 /******************************************* sm Device Start **************************************************/
 
 
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*    Menu part Start */
+
+    .mainMenu {
+        background: rgba(255, 255, 255, 0.8);
+        margin-top: 0;
+    }
+
+    .mainMenu button:focus {
+        outline: 0;
+
+    }
+
+    .mainMenu button {
+        background: #fd9237 !important;
+        color: #ffffff;
+        margin-right: 15px;
+    }
+
+    .mainMenu .navbar-nav {
+        background: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .mainMenu .navbar-nav .nav-item .nav-link {
+        line-height: 30px;
+
+    }
+
+    /*    Menu Part End */
+
+    /*    Banner Part Start */
+
+    #bannerPart .bannerImg {
+        padding: 0;
+    }
+
+    #bannerPart .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    /*    Banner Part End */
+
+    /*     Product Part Start */
+
+    .productTitle h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        ;
+    }
+
+    #ladiesProduct,
+    #beautyProduct,
+    #specialProduct {
+        padding: 30px 0 10px;
+    }
+
+    /*     Product Part End */
+
+    /*    Buy Part Start */
+
+    #buyPart {
+        padding: 30px 0;
+    }
+
+    .buyPartHead h2,
+    .contactHead h2 {
+        font-size: 35px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    /*    Buy Part End */
+
+    #contactPart {
+        padding: 30px 0;
+    }
+
+    .orderText h3 {
+        font-size: 30px;
+    }
+
+    .orderText h4 {
+        font-size: 20px;
+    }
+
+    .orderText h5 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .orderText ol li {
+
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .orderText ol {
+        padding-bottom: 20px;
+    }
+
+    .fbMsg,
+    .fbContact {
+        margin-left: 0px;
+    }
+
+    .contact {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .contactInfo p {
+        text-align: left;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+
+    .contact h5 {
+        font-size: 20px;
+    }
+
+    .social a i {
+        padding: 25px;
+
+    }
+
+
+}
 
 /******************************************* sm Device End **************************************************/
 
@@ -135,9 +396,34 @@
         padding-bottom: 20px;
     }
 
-    .fbMsg {
+    .fbMsg,
+    .fbContact {
         margin-left: 0px;
     }
+
+    .contact {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .contactInfo p {
+        text-align: left;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+
+    .contact h5 {
+        font-size: 20px;
+    }
+
+    .social a i {
+        padding: 25px;
+
+    }
+
 }
 
 /******************************************* xsm Device End **************************************************/
