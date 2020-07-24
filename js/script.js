@@ -25,6 +25,31 @@ $(function () {
         autoplaySpeed: 2000,
         dots: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                }
+    },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    }
+
+  ]
     });
 
     //    Banner Slider  End
@@ -40,6 +65,31 @@ $(function () {
         arrows: true,
         prevArrow: '<i class="fas fa-chevron-left prv_arr"></i>',
         nextArrow: '<i class="fas fa-chevron-right nxt_arr"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                }
+    },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    }
+
+  ]
     });
 
     // Product Slider End
