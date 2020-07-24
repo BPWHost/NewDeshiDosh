@@ -9,7 +9,16 @@
 
 /******************************************* lg Device Start **************************************************/
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+     #bannerPart .bannerImg {
+        padding: 50px;
+    }
+
+    #bannerPart .slick-dots li button {
+        width: 15px;
+        height: 15px;
+    }
+}
 
 
 /******************************************* lg Device End **************************************************/
