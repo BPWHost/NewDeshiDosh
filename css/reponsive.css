@@ -18,6 +18,24 @@
         width: 15px;
         height: 15px;
     }
+    
+        .prv_arr {
+	left: -10px;
+	font-size: 15px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+
+}
+    .nxt_arr {
+
+	right: -10px;
+	font-size: 15px;
+	width: 25px;
+	height: 25px;
+	line-height: 20px;
+
+}
 }
 
 
@@ -56,10 +74,6 @@
     /*    Menu Part End */
     
     /*    Banner Part Start */
-
-    #bannerPart .bannerImg {
-        padding: 0;
-    }
 
     #bannerPart .slick-dots li button {
         width: 10px;
@@ -147,9 +161,25 @@
         padding: 25px;
 
     }
-
+    
+    .prv_arr {
+	left: -10px;
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
 
 }
+    .nxt_arr {
+
+	right: -10px;
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+
+}
+
     
 }
 
@@ -185,7 +215,7 @@
     }
 
     .mainMenu .navbar-nav .nav-item .nav-link {
-        line-height: 30px;
+        line-height: 70px;
 
     }
 
@@ -193,9 +223,9 @@
 
     /*    Banner Part Start */
 
-    #bannerPart .bannerImg {
-        padding: 0;
-    }
+.bannerImg {
+	padding: 150px;
+}
 
     #bannerPart .slick-dots li button {
         width: 10px;
