@@ -11,7 +11,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
      #bannerPart .bannerImg {
-        padding: 50px;
+        padding: 200px;
     }
 
     #bannerPart .slick-dots li button {
