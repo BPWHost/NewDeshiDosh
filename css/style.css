@@ -131,7 +131,7 @@ span {
 
 #ladiesProduct {
     padding: 60px 0px 10px;
-    background: url(../images/productbg.jpg);
+    background: url(../images/resources/productbg.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
@@ -283,7 +283,7 @@ span {
 
 #beautyProduct {
     padding: 60px 0px 10px;
-    background: url(../images/beautyBg.jpg);
+    background: url(../images/resources/beautyBg.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
@@ -306,7 +306,7 @@ span {
 
 #specialProduct {
     padding: 60px 0px 10px;
-    background: url(../images/specialbg.jpg);
+    background: url(../images/resources/specialbg.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
