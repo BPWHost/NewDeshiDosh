@@ -487,10 +487,15 @@ span {
 
 #copyRight {
     background: #000000;
-    color: #ffffff;
+    color: #5d5d5d;
     line-height: 50px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 15px;
+}
+
+#copyRight a {
+    font-family: 'Black Ops One', cursive;
+    color: #8dcaff;
 }
 
 /* Copy Right Part End */
